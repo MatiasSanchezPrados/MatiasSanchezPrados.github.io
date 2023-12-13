@@ -1,0 +1,112 @@
+body{
+    font-family: "Poppins" , sans-serif;
+    font-size: 16px;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+h1{
+    font-family: "Playfair Display" , sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:first-of-type>a{
+    color: #9B9A78;
+}
+
+a{
+    color: #313131;
+    text-decoration: none;
+}
+
+header>div>a:first-of-type{
+    padding: 10px 20px;
+    text-decoration: underline;
+    color: #9B9A78;
+    display: inline-block;
+}
+
+header>div>a:nth-child(3){
+    padding: 10px 20px;
+    background-color: #9B9A78;
+    color: white;
+    display: inline-block;
+}
+header>div>img{
+    margin-right: 50px;
+}
+
+.principal{
+    background-image: url("../img/header3/photo.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 960px;
+    height: 380px;
+
+}
+
+.principal>section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 65%;
+}
+
+.principal>section>p::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/tick.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+
+.principal__info{
+    background-color: rgba(255 , 255 , 255 , 0.7);
+    position: relative;
+    left: 45%;
+    top: 10%;
+    width: 500px;
+
+}
+
+.principal__info>h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.principal__info>p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
