@@ -2,12 +2,24 @@ header>nav>ul>li{
     list-style-type: none;
     text-decoration: none;
 }
+
+header>nav>ul>li>a{
+    background-color: #F7D488;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50px;
+}
 body{
-    background-color: gray;
+    background-color: #2B303A;
 }
 
 h1{
     font-family: "Bebas Neue" , serif;
-    color: white;
+    color: #F25F5C;
     font-size: 60px;
+}
+
+header>nav>ul{
+    display: flex;
+    justify-content: space-around;
 }
