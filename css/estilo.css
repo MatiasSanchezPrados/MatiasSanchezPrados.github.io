@@ -17,6 +17,9 @@ h1{
     font-family: "Bebas Neue" , serif;
     color: #F25F5C;
     font-size: 60px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header>nav>ul{
