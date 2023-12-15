@@ -2,3 +2,12 @@ header>nav>ul>li{
     list-style-type: none;
     text-decoration: none;
 }
+body{
+    background-color: gray;
+}
+
+h1{
+    font-family: "Bebas Neue" , serif;
+    color: white;
+    font-size: 60px;
+}
